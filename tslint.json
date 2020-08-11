@@ -44,6 +44,7 @@
 		"isDev": true,
 		"ELEMENT": true,
 		"FILEVIEW": true,
-		"win": true
+		"win": true,
+		"process": true
     }
   }

@@ -31,6 +31,7 @@ export default class HomeBox extends Vue {
     $router
     $route
     $moment
+    $on
     // props
     @Prop({ type: String, default: '' })
     // data

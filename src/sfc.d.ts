@@ -23,6 +23,7 @@ declare var ELEMENT: any
 declare var PH: any
 declare var FILEVIEW: any
 declare var win: any
+declare var process: any
 /**
  * 告诉 TypeScript *.vue 后缀的文件可以交给 vue 模块来处理
  * 而在代码中导入 *.vue 文件的时候，需要写上 .vue 后缀。
