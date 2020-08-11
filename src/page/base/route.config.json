@@ -1,22 +1,22 @@
 [
     {
-        "path": "base/Index.vue",
-        "name": "base",
+        "path": "{{name}}/Index.vue",
+        "name": "{{name}}",
         "fileName": "",
         "children": [
             {
-                "path": "base/view/home.vue",
+                "path": "{{name}}/view/home.vue",
                 "name": "home",
-                "code": "base",
+                "code": "",
                 "fileName": "",
-                "describe": "基础模块首页"
+                "describe": ""
             },
             {
                 "path": "",
                 "name": "auth",
                 "fileName": "",
                 "component": "auth",
-                "codes": "base",
+                "codes": "{{name}}",
                 "describe":""
             },
             {
@@ -24,25 +24,17 @@
                 "name": "log",
                 "fileName": "",
                 "component": "log",
-                "codes": "base",
-                "describe":""
-            },
-            {
-                "path": "",
-                "name": "viewport",
-                "fileName": "",
-                "component": "viewport",
-                "codes": "base",
+                "codes": "{{name}}",
                 "describe":""
             },
             {
                 "path": "/",
-                "redirect": "/base/home"
+                "redirect": "/{{name}}/home"
             }
         ]
     },
     {
         "path": "/",
-        "redirect": "/base"
+        "redirect": "/{{name}}"
     }
 ]
