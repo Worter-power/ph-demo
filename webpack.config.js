@@ -1,8 +1,8 @@
 const path = require('path');
 module.exports = {
     openEslink: true,
-    name: 'base',
-    buildPublicPath: '/base/',
+    name: '{{name}}',
+    buildPublicPath: '/{{name}}/',
     port: 8083,
     publicPath: '/',
     open: false, // 开启浏览器
