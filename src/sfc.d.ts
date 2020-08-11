@@ -47,6 +47,7 @@ declare module "*.json" {
 // declare module '@zz/perf/vue'
 // declare module 'raven-js'
 // declare module 'raven-js/plugins/vue'
+declare module 'vue-property-decorator'
 
 // 扩展vue属性
 declare module "vue/types/vue" {
